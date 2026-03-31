@@ -5,7 +5,7 @@ import { dadosCliente } from "@/data/cliente"
 
 export default function FooterCTA() {
   return (
-    <section className="relative bg-gradient-premium py-16 px-6 md:px-16 flex flex-col items-center justify-center gap-8 overflow-hidden">
+    <section className="relative bg-solid-dark py-16 px-6 md:px-16 flex flex-col items-center justify-center gap-8 overflow-hidden" style={{ backgroundColor: '#080D21' }}>
       {/* Orbes de luz sutis */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-32 left-1/3 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl opacity-40" />

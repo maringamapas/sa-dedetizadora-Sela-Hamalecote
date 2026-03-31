@@ -21,7 +21,7 @@ export const dadosCliente = {
 
   // Conteúdo principal
   conteudo: {
-    tituloPrincipal: "Selá Hamalecote: Proteção Total Contra Pragas em São Paulo",
+    tituloPrincipal: "Selá Hamalecote Dedetizadora controle de Pragas em São Paulo",
     subtitulo: "Proteção Completa Contra Pragas! 🛡️🪳\nDedetização, desratização, descupinização e controle de pragas urbanas. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua casa ou empresa com soluções eficazes!",
     sobreNos:
       "Somos a Selá Hamalecote Dedetizadora, especialistas em controle de pragas com atendimento profissional na Zona Leste de São Paulo. Utilizamos técnicas especializadas e produtos de qualidade para resolver problemas com baratas, formigas, roedores, cupins e outras pragas. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências, comércios e condomínios, com garantia de trabalho seguro e eficaz.",
