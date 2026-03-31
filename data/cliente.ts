@@ -4,54 +4,54 @@
 export const dadosCliente = {
   // Cores do tema
   cores: {
-    primaryColor: "#0066cc", // Azul profissional
-    secondaryColor: "#1a1a1a", // Preto
-    accentColor: "#004fa3", // Azul escuro
+    primaryColor: "#10b981", // Verde profissional para dedetização
+    secondaryColor: "#1f2937", // Cinza escuro
+    accentColor: "#059669", // Verde escuro
   },
 
   // Informações de contato
   contato: {
-    whatsappNumber: "5548988632453",
-    whatsappLink: "https://wa.me/5548988632453?text=Olá, Preciso de um orçamento!!",
+    whatsappNumber: "5511958270892",
+    whatsappLink: "https://wa.me/5511958270892?text=Olá, Preciso de um orçamento!!",
     instagram: "https://instagram.com", // Adicione o link real se houver
     email: "",
-    endereco: "R. Domingos de Vila, 79 - Imigrantes - Criciúma - SC, 88813-730",
-    telefone: "(48) 98863-2453",
+    endereco: "R. Bento Luiz, 150 - Parque Boturussu, São Paulo - SP, 03805-050",
+    telefone: "(11) 95827-0892",
   },
 
   // Conteúdo principal
   conteudo: {
-    tituloPrincipal: "Desentupidora Patrício Criciúma: Rápido e Sem Quebrar",
-    subtitulo: "Soluções Rápidas e Eficazes! 🚽💧\nServiços de desentupimento de esgoto, pias, caixas de gordura e mais. Atendimento 24h, equipamentos modernos e profissionais qualificados. Resolvemos seu problema de entupimento com rapidez e segurança!",
+    tituloPrincipal: "Selá Hamalecote: Proteção Total Contra Pragas em São Paulo",
+    subtitulo: "Proteção Completa Contra Pragas! 🛡️🪳\nDedetização, desratização, descupinização e controle de pragas urbanas. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua casa ou empresa com soluções eficazes!",
     sobreNos:
-      "Somos a Desentupidora Patrício, especialistas em desentupimento com atendimento 24 horas em Criciúma. Utilizamos equipamentos rotativos e tecnologia de vácuo para resolver entupimentos sem necessidade de quebrar pisos ou paredes. Nossa equipe é experiente e oferece soluções rápidas e confiáveis para residências e empresas, com garantia de trabalho limpo e profissional.",
+      "Somos a Selá Hamalecote Dedetizadora, especialistas em controle de pragas com atendimento profissional na Zona Leste de São Paulo. Utilizamos técnicas especializadas e produtos de qualidade para resolver problemas com baratas, formigas, roedores, cupins e outras pragas. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências, comércios e condomínios, com garantia de trabalho seguro e eficaz.",
   },
 
   // Serviços oferecidos
   servicos: [
     {
       id: 1,
-      titulo: "Desentupimento de Vaso Sanitário",
-      descricao: "Solução imediata sem danos à louça",
-      icone: "🚽",
+      titulo: "Dedetização",
+      descricao: "Controle especializado de baratas, formigas e pragas rasteiras",
+      icone: "🪳",
     },
     {
       id: 2,
-      titulo: "Desentupimento de Pias e Ralos",
-      descricao: "Desobstrução completa de encanamentos",
-      icone: "🚰",
+      titulo: "Desratização",
+      descricao: "Controle preventivo e corretivo de roedores com monitoramento",
+      icone: "🐀",
     },
     {
       id: 3,
-      titulo: "Limpeza de Caixa de Gordura",
-      descricao: "Manutenção técnica e preventiva para comércios e casas",
-      icone: "🏗️",
+      titulo: "Descupinização",
+      descricao: "Tratamento técnico contra cupins de solo e madeira seca",
+      icone: "🪵",
     },
     {
       id: 4,
-      titulo: "Tecnologia Sem Quebra",
-      descricao: "Equipamentos rotativos e vácuo, sem quebrar pisos ou paredes",
-      icone: "🛠️",
+      titulo: "Controle de Pragas Urbanas",
+      descricao: "Gestão integrada para condomínios e empresas",
+      icone: "🛡️",
       destaque: true,
     },
   ],
@@ -59,25 +59,50 @@ export const dadosCliente = {
   // Recursos principais (exibidos no hero)
   recursos: [
     {
-      titulo: "Atendimento 24h",
-      descricao: "Disponível todos os dias da semana",
+      titulo: "Atendimento Profissional",
+      descricao: "Equipe qualificada e experiente",
     },
     {
-      titulo: "Trabalho Limpo",
-      descricao: "Sem sujeira e sem produtos químicos agressivos",
+      titulo: "Técnicas Especializadas",
+      descricao: "Soluções eficazes e seguras para todos os tipos de pragas",
     },
     {
-      titulo: "Tecnologia Avançada",
-      descricao: "Equipamentos rotativos e vácuo profissional",
+      titulo: "Zona Leste de São Paulo",
+      descricao: "Serviços em toda a região metropolitana",
+    },
+  ],
+
+  // Testemunhos de clientes
+  depoimentos: [
+    {
+      id: 1,
+      nome: "Claudio M.",
+      profissao: "Residencial",
+      imagem: "/cliente-claudio.jpg",
+      texto: "Excelente atendimento aqui no Parque Boturussu. Estávamos com problema de baratas e a Selá Hamalecote resolveu de primeira. Muito limpos e educados.",
+    },
+    {
+      id: 2,
+      nome: "Juliana F.",
+      profissao: "Comercial",
+      imagem: "/cliente-juliana.jpg",
+      texto: "Contratamos para a nossa loja. Precisávamos do certificado sanitário e de um controle rígido. Equipe nota 10, super pontuais.",
+    },
+    {
+      id: 3,
+      nome: "Roberto S.",
+      profissao: "Descupinização",
+      imagem: "/cliente-roberto.jpg",
+      texto: "Fizeram um trabalho técnico de descupinização no meu telhado. Explicaram todo o processo e o preço foi muito justo pela qualidade.",
     },
   ],
 
   // Metadados SEO
   seo: {
-    siteTitle: "Desentupidora Patrício Criciúma | Atendimento 24h | (48) 98863-2453",
+    siteTitle: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo | (11) 95827-0892",
     description:
-      "Desentupidora Patrício em Criciúma - Atendimento 24h especializado em desentupimento sem quebra. Pias, ralos, vasos sanitários e limpeza de caixa de gordura.",
-    url: "https://desentupidora-patricio.vercel.app",
+      "Selá Hamalecote - Dedetizadora em São Paulo. Controle especializado de baratas, formigas, roedores e cupins. Atendimento profissional na Zona Leste e região metropolitana.",
+    url: "https://sela-hamalecote.vercel.app",
     ogImage: "/og-image.jpg",
   },
 }
