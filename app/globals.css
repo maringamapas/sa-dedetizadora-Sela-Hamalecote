@@ -5,9 +5,9 @@
 
 :root {
   /* Cores do cliente - personalizáveis via dadosCliente */
-  --primary-color: #f59e0b;
+  --primary-color: #10b981;
   --secondary-color: #1f2937;
-  --accent-color: #ea580c;
+  --accent-color: #059669;
 
   --background: oklch(0.98 0.004 106);
   --foreground: oklch(0.11 0.015 264);
