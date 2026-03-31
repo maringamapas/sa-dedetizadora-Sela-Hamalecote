@@ -89,6 +89,7 @@ export default function FooterCTA() {
             @dedetizadora.sh
           </a>
         </p>
+      </motion.div>
       </div>
     </section>
   )
