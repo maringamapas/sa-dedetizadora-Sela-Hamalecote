@@ -102,7 +102,7 @@ export const dadosCliente = {
     siteTitle: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo | (11) 95827-0892",
     description:
       "Selá Hamalecote - Dedetizadora em São Paulo. Controle especializado de baratas, formigas, roedores e cupins. Atendimento profissional na Zona Leste e região metropolitana.",
-    url: "https://sela-hamalecote.vercel.app",
+    url: "https://sa-dedetizadora-sela-hamalecote.vercel.app",
     ogImage: "/og-image.jpg",
   },
 }
