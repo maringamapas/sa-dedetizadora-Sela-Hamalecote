@@ -4,30 +4,30 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Cores do cliente - personalizáveis via dadosCliente */
-  --primary-color: #10b981;
-  --secondary-color: #1f2937;
-  --accent-color: #059669;
+  /* Cores premium - Identidade Visual Refatorada */
+  --primary-color: #DAA520;
+  --secondary-color: #080D21;
+  --accent-color: #DAA520;
 
-  --background: oklch(0.98 0.004 106);
-  --foreground: oklch(0.11 0.015 264);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.11 0.015 264);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.11 0.015 264);
-  --primary: oklch(0.68 0.18 65);
-  --primary-foreground: oklch(0.09 0.02 264);
-  --secondary: oklch(0.95 0.01 264);
-  --secondary-foreground: oklch(0.11 0.015 264);
-  --muted: oklch(0.95 0.01 264);
-  --muted-foreground: oklch(0.5 0.015 264);
-  --accent: oklch(0.95 0.01 264);
-  --accent-foreground: oklch(0.11 0.015 264);
-  --destructive: oklch(0.55 0.24 29);
-  --destructive-foreground: oklch(0.98 0.004 106);
-  --border: oklch(0.9 0.01 264);
-  --input: oklch(0.9 0.01 264);
-  --ring: oklch(0.68 0.18 65);
+  --background: #080D21;
+  --foreground: #FFFFFF;
+  --card: #1C1C1C;
+  --card-foreground: #FFFFFF;
+  --popover: #1C1C1C;
+  --popover-foreground: #FFFFFF;
+  --primary: #DAA520;
+  --primary-foreground: #080D21;
+  --secondary: #1C1C1C;
+  --secondary-foreground: #FFFFFF;
+  --muted: #2a2a2a;
+  --muted-foreground: #EEEEEE;
+  --accent: #DAA520;
+  --accent-foreground: #080D21;
+  --destructive: #FF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(218, 165, 32, 0.2);
+  --input: #1C1C1C;
+  --ring: #DAA520;
   --chart-1: oklch(0.68 0.18 65);
   --chart-2: oklch(0.65 0.2 45);
   --chart-3: oklch(0.55 0.2 280);
@@ -45,30 +45,25 @@
 }
 
 .dark {
-  --background: oklch(0.09 0.02 264);
-  --foreground: oklch(0.98 0.004 106);
-  --card: oklch(0.12 0.02 264);
-  --card-foreground: oklch(0.98 0.004 106);
-  --popover: oklch(0.12 0.02 264);
-  --popover-foreground: oklch(0.98 0.004 106);
-  --primary: oklch(0.7 0.2 65);
-  --primary-foreground: oklch(0.09 0.02 264);
-  --secondary: oklch(0.2 0.03 264);
-  --secondary-foreground: oklch(0.98 0.004 106);
-  --muted: oklch(0.2 0.03 264);
-  --muted-foreground: oklch(0.55 0.015 264);
-  --accent: oklch(0.2 0.03 264);
-  --accent-foreground: oklch(0.98 0.004 106);
-  --destructive: oklch(0.5 0.22 29);
-  --destructive-foreground: oklch(0.98 0.004 106);
-  --border: oklch(0.22 0.03 264);
-  --input: oklch(0.22 0.03 264);
-  --ring: oklch(0.7 0.2 65);
-  --chart-1: oklch(0.7 0.2 65);
-  --chart-2: oklch(0.67 0.22 45);
-  --chart-3: oklch(0.55 0.2 280);
-  --chart-4: oklch(0.7 0.15 140);
-  --chart-5: oklch(0.68 0.22 190);
+  --background: #080D21;
+  --foreground: #FFFFFF;
+  --card: #1C1C1C;
+  --card-foreground: #FFFFFF;
+  --popover: #1C1C1C;
+  --popover-foreground: #FFFFFF;
+  --primary: #DAA520;
+  --primary-foreground: #080D21;
+  --secondary: #1C1C1C;
+  --secondary-foreground: #FFFFFF;
+  --muted: #2a2a2a;
+  --muted-foreground: #EEEEEE;
+  --accent: #DAA520;
+  --accent-foreground: #080D21;
+  --destructive: #FF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(218, 165, 32, 0.2);
+  --input: #1C1C1C;
+  --ring: #DAA520;
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.488 0.243 264.376);
@@ -100,11 +95,6 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -126,4 +116,36 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Gradiente Premium: Midnight Navy Blue → Goldenrod */
+.bg-gradient-premium {
+  background: linear-gradient(to bottom, #080D21 0%, #080D21 70%, #DAA520 100%);
+}
+
+/* Blocos alternados com cinza charcoal */
+.bg-charcoal-block {
+  background-color: #1C1C1C;
+}
+
+/* Headings com gradiente dourado glowant */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #FFD700 0%, #DAA520 50%, #FFA500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Checkmark customizado - quadrado verde com preenchimento branco */
+.checkmark-custom::before {
+  content: "☑";
+  color: #10b981;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Ícone telefone customizado */
+.phone-icon::before {
+  content: "☎";
+  color: #10b981;
 }
