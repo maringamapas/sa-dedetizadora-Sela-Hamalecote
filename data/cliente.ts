@@ -2,18 +2,18 @@
 // Modifique este arquivo para adaptar o layout para diferentes clientes
 
 export const dadosCliente = {
-  // Cores do tema
+  // Cores do tema - Identidade Visual Premium
   cores: {
-    primaryColor: "#10b981", // Verde profissional para dedetização
-    secondaryColor: "#1f2937", // Cinza escuro
-    accentColor: "#059669", // Verde escuro
+    primaryColor: "#DAA520", // Goldenrod/Bronze
+    secondaryColor: "#080D21", // Midnight Navy Blue
+    accentColor: "#10b981", // Verde para checkmarks e ícones
   },
 
   // Informações de contato
   contato: {
     whatsappNumber: "5511958270892",
     whatsappLink: "https://wa.me/5511958270892?text=Olá, Preciso de um orçamento!!",
-    instagram: "https://instagram.com", // Adicione o link real se houver
+    instagram: "https://instagram.com/dedetizadora.sh", // Instagram oficial
     email: "",
     endereco: "R. Bento Luiz, 150 - Parque Boturussu, São Paulo - SP, 03805-050",
     telefone: "(11) 95827-0892",
