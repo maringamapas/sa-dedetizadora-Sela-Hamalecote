@@ -9,34 +9,46 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+const siteUrl = "https://sa-dedetizadora-sela-hamalecote.vercel.app"
+const ogImageUrl = `${siteUrl}/og-image.jpg`
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: dadosCliente.seo.siteTitle,
   description: dadosCliente.seo.description,
-  metadataBase: new URL(dadosCliente.seo.url),
   generator: "v0.app",
-  // Nova tag de verificação inserida corretamente via Metadata API
   verification: {
     google: "OQ18zxm5jwjtUma02of36qhsH3hzOuIvHqnZSk-kd_A",
   },
   openGraph: {
-    title: dadosCliente.seo.siteTitle,
-    description: dadosCliente.seo.description,
+    title: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo",
+    description:
+      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue agora: (11) 95827-0892",
     type: "website",
-    url: dadosCliente.seo.url,
+    url: siteUrl,
+    siteName: "Selá Hamalecote Dedetizadora",
+    locale: "pt_BR",
     images: [
       {
-        url: dadosCliente.seo.ogImage,
+        url: ogImageUrl,
         width: 1200,
         height: 630,
+        alt: "Selá Hamalecote Dedetizadora - Serviços Profissionais de Dedetização em São Paulo",
+        type: "image/jpeg",
       },
     ],
-    locale: "pt_BR",
   },
   twitter: {
     card: "summary_large_image",
-    title: dadosCliente.seo.siteTitle,
-    description: dadosCliente.seo.description,
-    images: [dadosCliente.seo.ogImage],
+    title: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo",
+    description:
+      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue: (11) 95827-0892",
+    images: [
+      {
+        url: ogImageUrl,
+        alt: "Selá Hamalecote Dedetizadora - Serviços Profissionais de Dedetização em São Paulo",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico",
@@ -51,7 +63,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      {/* Removi as tags manuais do <head> pois o Next.js já as gera via metadata acima */}
       <body className={`font-sans antialiased`}>
         <ClienteProvider>
           {children}
