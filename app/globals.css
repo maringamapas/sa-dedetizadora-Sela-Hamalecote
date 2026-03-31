@@ -118,9 +118,9 @@
   }
 }
 
-/* Gradiente Premium: Midnight Navy Blue → Goldenrod */
-.bg-gradient-premium {
-  background: linear-gradient(to bottom, #080D21 0%, #080D21 70%, #DAA520 100%);
+/* Background sólido - Midnight Navy Blue */
+.bg-solid-dark {
+  background-color: #080D21;
 }
 
 /* Blocos alternados com cinza charcoal */
