@@ -40,10 +40,9 @@ const Page = () => {
                   />
                 </motion.div>
               </div>
-                <p className="text-base sm:text-lg text-gray-200 leading-relaxed max-w-2xl">
-                  {dadosCliente.conteudo.subtitulo}
-                </p>
-              </div>
+              <p className="text-base sm:text-lg text-gray-200 leading-relaxed max-w-2xl">
+                {dadosCliente.conteudo.subtitulo}
+              </p>
 
               {/* Features List */}
               <div className="space-y-3 sm:space-y-4">
