@@ -61,7 +61,7 @@ export default function FooterCTA() {
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className="w-full sm:w-auto px-6 sm:px-8 py-3 border-2 border-amber-600 bg-transparent hover:bg-amber-600 hover:text-blue-950 text-amber-600 font-extrabold rounded-lg transition-colors duration-300 text-center text-lg touch-manipulation"
         >
-          {dadosCliente.contato.telefone}
+          📱 {dadosCliente.contato.telefone}
         </motion.a>
 
         <motion.a
@@ -74,7 +74,7 @@ export default function FooterCTA() {
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className="w-full sm:w-auto px-6 sm:px-8 py-3 border-2 border-amber-600 bg-transparent hover:bg-amber-600 hover:text-blue-950 text-amber-600 font-extrabold rounded-lg transition-colors duration-300 text-center text-lg touch-manipulation"
         >
-          ☎ (11) 99507-6217
+          📱 (11) 99507-6217
         </motion.a>
       </div>
 
