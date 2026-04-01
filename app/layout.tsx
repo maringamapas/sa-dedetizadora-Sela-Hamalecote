@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo",
     description:
-      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue agora: (11) 95827-0892",
+      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue agora: (11) 95827-0892 - (11) 99507-6217",
     type: "website",
     url: siteUrl,
     siteName: "Selá Hamalecote Dedetizadora",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo",
     description:
-      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue: (11) 95827-0892",
+      "Dedetização, Desratização, Descupinização e Controle de Pragas Urbanas em São Paulo. Ligue: (11) 95827-0892 - (11) 99507-6217",
     images: [
       {
         url: ogImageUrl,
