@@ -167,9 +167,8 @@ const Page = () => {
                     <p className="text-sm sm:text-base text-zinc-300">{servico.descricao}</p>
                   </div>
                 </motion.div>
-              ))}
-            </motion.div>
-          </div>
+            ))}
+          </motion.div>
         </section>
 
         {/* Testimonials Section */}
