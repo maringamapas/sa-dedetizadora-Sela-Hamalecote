@@ -19,14 +19,30 @@ const Page = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Column - Content */}
             <div className="flex flex-col gap-6 sm:gap-8">
-              <div className="space-y-3 sm:space-y-4">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-balance text-gradient-gold">
-                  {dadosCliente.conteudo.tituloPrincipal}
-                </h1>
-                <p className="text-base sm:text-lg text-gray-200 leading-relaxed max-w-2xl">
-                  {dadosCliente.conteudo.subtitulo}
-                </p>
+              <div className="space-y-3 sm:space-y-4 flex flex-col lg:flex-row lg:items-start lg:gap-6">
+                <div className="flex-1">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-balance text-gradient-gold">
+                    {dadosCliente.conteudo.tituloPrincipal}
+                  </h1>
+                </div>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                  className="hidden lg:flex flex-shrink-0"
+                >
+                  <Image
+                    src="/logo-sela.png"
+                    alt="Logo Selá Hamalecote Dedetizadora"
+                    width={200}
+                    height={200}
+                    className="w-40 h-40 lg:w-48 lg:h-48 object-contain"
+                  />
+                </motion.div>
               </div>
+              <p className="text-base sm:text-lg text-gray-200 leading-relaxed max-w-2xl">
+                {dadosCliente.conteudo.subtitulo}
+              </p>
 
               {/* Features List */}
               <div className="space-y-3 sm:space-y-4">
