@@ -136,21 +136,21 @@ const Page = () => {
                       }
                     },
                   }}
-              whileHover={{ 
-                scale: 1.03, 
-                y: -4,
-                boxShadow: "0 20px 40px -12px rgba(218, 165, 32, 0.25)",
-                borderColor: "rgba(218, 165, 32, 0.6)",
-              }}
-              whileTap={{ scale: 0.98 }}
-              transition={{
-                type: "spring",
-                stiffness: 300,
-                damping: 20,
-              }}
-              className="relative group overflow-hidden rounded-lg border-2 border-amber-600/50 bg-charcoal-block hover:bg-charcoal-block/80 backdrop-blur-sm p-6 sm:p-8 cursor-pointer touch-manipulation transition-all duration-300"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-transparent to-yellow-400/10 transition-opacity duration-300 group-hover:opacity-150" />
+                  whileHover={{ 
+                    scale: 1.03, 
+                    y: -4,
+                    boxShadow: "0 20px 40px -12px rgba(218, 165, 32, 0.25)",
+                    borderColor: "rgba(218, 165, 32, 0.6)",
+                  }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 20,
+                  }}
+                  className="relative group overflow-hidden rounded-lg border-2 border-amber-600/50 bg-charcoal-block hover:bg-charcoal-block/80 backdrop-blur-sm p-6 sm:p-8 cursor-pointer touch-manipulation transition-all duration-300"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-transparent to-yellow-400/10 transition-opacity duration-300 group-hover:opacity-150" />
                   {servico.destaque && (
                     <div className="absolute top-4 right-4">
                       <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-500/20 border border-yellow-500/30">
@@ -167,8 +167,9 @@ const Page = () => {
                     <p className="text-sm sm:text-base text-zinc-300">{servico.descricao}</p>
                   </div>
                 </motion.div>
-            ))}
-          </motion.div>
+              ))}
+            </motion.div>
+          </div>
         </section>
 
         {/* Testimonials Section */}
@@ -249,8 +250,7 @@ const Page = () => {
                 </div>
               </motion.div>
             ))}
-            </motion.div>
-          </div>
+          </motion.div>
         </section>
 
         {/* FooterCTA Section */}
