@@ -28,7 +28,7 @@ export default function FooterCTA() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ type: "spring", stiffness: 300, damping: 20, delay: 0.1 }}
-        className="text-gray-300 text-center max-w-lg text-lg"
+        className="text-gray-300 text-center max-w-2xl text-lg leading-relaxed"
       >
         Não espere mais! Solicite um orçamento agora mesmo e conte com atendimento especializado 24 horas.
       </motion.p>
