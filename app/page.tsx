@@ -62,7 +62,9 @@ const Page = () => {
                 </motion.a>
 
                 <motion.a
-                  href={`tel:${dadosCliente.contato.telefone.replace(/\D/g, '')}`}
+                  href="https://wa.me/5511958270892?text=Olá, Preciso de um orçamento!!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   initial={{ scale: 0.95, boxShadow: "0 0 0 rgba(218, 165, 32, 0.5)" }}
                   whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(218, 165, 32, 0.7)" }}
                   whileTap={{ scale: 0.98 }}

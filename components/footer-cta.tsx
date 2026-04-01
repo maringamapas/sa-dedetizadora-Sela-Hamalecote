@@ -52,7 +52,7 @@ export default function FooterCTA() {
         </motion.a>
 
         <motion.a
-          href={dadosCliente.contato.whatsappLink}
+          href="https://wa.me/5511958270892?text=Olá, Preciso de um orçamento!!"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ scale: 0.95, boxShadow: "0 0 0 rgba(218, 165, 32, 0.5)" }}
