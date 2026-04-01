@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: dadosCliente.seo.siteTitle,
   description: dadosCliente.seo.description,
   generator: "v0.app",
-  verification: {
-    google: "OQ18zxm5jwjtUma02of36qhsH3hzOuIvHqnZSk-kd_A",
-  },
   openGraph: {
     title: "Selá Hamalecote Dedetizadora | Controle de Pragas São Paulo",
     description:
