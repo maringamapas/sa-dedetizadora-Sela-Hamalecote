@@ -11,8 +11,8 @@ export const dadosCliente = {
 
   // Informações de contato
   contato: {
-    whatsappNumber: "5511958270892",
-    whatsappLink: "https://wa.me/5511958270892?text=Olá, Preciso de um orçamento!!",
+    whatsappNumber: "5511995076217",
+    whatsappLink: "https://wa.me/5511995076217?text=Olá, Preciso de um orçamento!!",
     instagram: "https://instagram.com/dedetizadora.sh", // Instagram oficial
     email: "",
     endereco: "R. Bento Luiz, 150 - Parque Boturussu, São Paulo - SP, 03805-050",
