@@ -71,6 +71,19 @@ const Page = () => {
                 >
                   ☎ {dadosCliente.contato.telefone}
                 </motion.a>
+
+                <motion.a
+                  href="https://wa.me/5511995076217?text=Ol%C3%A1%2C%20Preciso%20de%20um%20or%C3%A7amento!!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  initial={{ scale: 0.95, boxShadow: "0 0 0 rgba(218, 165, 32, 0.5)" }}
+                  whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(218, 165, 32, 0.7)" }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="w-full sm:w-auto px-6 sm:px-8 py-3 border-2 border-amber-600 bg-transparent hover:bg-amber-600 hover:text-blue-950 text-amber-600 font-extrabold rounded-lg transition-colors duration-300 text-center text-lg"
+                >
+                  ☎ (11) 99507-6217
+                </motion.a>
               </div>
             </div>
 
